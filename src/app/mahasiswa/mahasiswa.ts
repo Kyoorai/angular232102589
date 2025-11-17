@@ -33,8 +33,8 @@ export class Mahasiswa implements AfterViewInit{
             const jenisKelaminFormatted = element.JenisKelamin + " " + (
               (element.JenisKelamin == "Perempuan" || element.JenisKelamin == "perempuan") ?
               "<i class='fas fa-venus text-danger'></i>":
-              (element.JenisKelamin == "undefined") ?
-              "" : "<i class='fas fa-mars text-primary'></i>"
+              (element.JenisKelamin != "undefined") ?
+               "<i class='fas fa-mars text-primary'></i>" : ""
             );
 
             var row = [
