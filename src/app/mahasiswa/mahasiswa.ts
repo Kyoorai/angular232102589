@@ -74,27 +74,27 @@ export class Mahasiswa implements AfterViewInit{
         var tempatLahir = $("#tempatLahirText").val();
 
         if (nim.length == 0) {
-          alert("NIM belum diisi");
+          alert("NIM belum di isi");
         return;
         }
         if (nama.length == 0) {
-          alert("Nama belum diisi");
+          alert("Nama belum di isi");
         return;
         }
         if (tempatLahir.length == 0) {
-          alert("Tempat Lahir belum diisi");
+          alert("Tempat Lahir belum di isi");
         return;
         }
         if (tanggalLahir.length == 0) {
-          alert("tanggal Lahir belum diisi");
+          alert("tanggal Lahir belum di isi");
         return;
         }
         if (alamat.length == 0) {
-          alert("Alamat belum diisi");
+          alert("Alamat belum di isi");
         return;
         }
         if (tahunMasuk.length == 0) {
-          alert("Tahun Masuk belum diisi");
+          alert("Tahun Masuk belum di isi");
         return;
         }
         alamat = encodeURIComponent(alamat);
